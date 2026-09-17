@@ -4,9 +4,9 @@
   <p><strong>A modern, fast, and highly customizable IDE built for C++ developers.</strong></p>
   
   <p>
-    <a href="https://github.com/glzzjhn-byte/CppForgeIDE/releases/latest"><img src="https://img.shields.io/github/v/release/glzzjhn-byte/CppForgeIDE?style=flat-square&color=FF6FA0" alt="Latest Release"></a>
+    <a href="https://github.com/glzzjhn-byte/CppForgeIDE/releases/latest"><img src="https://img.shields.io/github/v/release/glzzjhn-byte/ForgeIDE-Main?style=flat-square&color=FF6FA0" alt="Latest Release"></a>
     <a href="LICENSE.txt"><img src="https://img.shields.io/badge/License-Freeware-blue.svg?style=flat-square" alt="License"></a>
-    <a href="https://github.com/glzzjhn-byte/CppForgeIDE/releases"><img src="https://img.shields.io/github/downloads/glzzjhn-byte/CppForgeIDE/total?style=flat-square" alt="Downloads"></a>
+    <a href="https://github.com/glzzjhn-byte/ForgeIDE-Main/releases"><img src="https://img.shields.io/github/downloads/glzzjhn-byte/ForgeIDE-Main/total?style=flat-square" alt="Downloads"></a>
   </p>
 </div>
 
@@ -27,7 +27,7 @@
 
 ## 📥 Installation
 
-1. Go to the [Releases page](https://github.com/glzzjhn-byte/CppForgeIDE/releases/latest).
+1. Go to the [Releases page](https://github.com/glzzjhn-byte/ForgeIDE-Main/releases/latest).
 2. Download the latest `CppForgeIDE_Installer_v1.exe`.
 3. (Optional) Verify the `.sig` GPG signature using Kleopatra or Gpg4win to ensure file integrity.
 4. Run the installer. 
