@@ -1,0 +1,23 @@
+name: Auto-Greeter Bot
+
+# Trigger this action only when a new issue is opened by a user
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Send automatic reply
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "👋 Hello there! Thank you for reporting this issue with **C++ Forge IDE**.\n\nOur system has logged this, and the lead developer (@glzzjhn-byte) will review it as soon as possible. If you have any error logs or screenshots, please attach them below!"
+            })
