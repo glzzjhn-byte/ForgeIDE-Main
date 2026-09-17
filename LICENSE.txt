@@ -1,0 +1,25 @@
+END USER LICENSE AGREEMENT (EULA)
+C++ Forge IDE - FREEWARE LICENSE
+
+IMPORTANT: PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THIS SOFTWARE.
+
+1. LICENSE GRANT
+This software is provided as Freeware, but it is NOT Open Source. You are granted a non-exclusive, non-transferable license to use the C++ Forge IDE for personal, educational, or commercial purposes at no cost. You may not decompile, reverse engineer, or modify the source code of this software without explicit permission from the author.
+
+2. DATA COLLECTION & NETWORK USAGE
+By using this software, you acknowledge and agree that:
+- The software requires an active internet connection to function optimally.
+- It makes HTTP/HTTPS requests to external servers (including GitHub Gists) to check for mandatory updates, security patches, or emergency kill-switches.
+- The software uses secure OAuth 2.0 (via GitHub and Google) for authentication. No credentials are saved locally.
+- For AI-assisted features (like the AI Chatbot), telemetry or prompts may be transmitted over the network if you are not using a local fallback like Ollama. We strive to respect your privacy, but certain data exchanges are necessary for the AI features to work. 
+
+3. LIMITATIONS OF A SOLO DEVELOPER
+This software is passionately developed and maintained by a solo developer. While every effort is made to ensure stability, performance, and security, it does not have the backing of a large QA team. 
+- Updates and bug fixes will be provided on a best-effort basis.
+- The software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+- The author shall not be held liable for any data loss, code corruption, or system issues arising from the use of this software. Please regularly back up your code.
+
+4. THIRD-PARTY DEPENDENCIES
+This software relies on third-party compilers (like g++ or clang) and external AI servers (like Ollama). These third-party tools are governed by their own respective licenses.
+
+By continuing to install or use C++ Forge IDE, you accept these terms and acknowledge the limitations described above. Thank you for using and supporting independent software development!
