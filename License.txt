@@ -1,0 +1,232 @@
+END USER LICENSE AGREEMENT
+
+C++ Forge IDE — Freeware License
+
+Version 1.0 — Effective September 15, 2026
+
+================================================================
+
+IMPORTANT — READ CAREFULLY. This End User License Agreement ("Agreement") is a legal agreement between you ("You" or "Licensee") and John Gabriel Ronao, doing business as "GlzzjhnLexi" ("Author," "I," or "Licensor"), governing your use of the C++ Forge IDE software ("Software").
+
+BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT INSTALL OR USE THE SOFTWARE.
+
+================================================================
+
+PLAIN-LANGUAGE SUMMARY
+
+(This summary is provided for convenience only and is not part of the Agreement. In the event of any conflict, the full terms below control.)
+
+- The Software is free to use, but it is NOT open source and remains my property.
+- It connects to the internet for updates, authentication, and optional AI features.
+- I build and maintain it alone, as an independent developer and student. There is no QA team, no support desk, and no guarantee of continued availability.
+- You may use it commercially, but you do so entirely at your own risk. If your business depends on uninterrupted, validated tooling, please evaluate the Software carefully before relying on it.
+- Back up your work. Review any code the AI features generate before you use it.
+
+================================================================
+
+1. DEFINITIONS
+
+1.1. "Software" means the C++ Forge IDE application, including its executable files, libraries, configuration files, documentation, and any updates, patches, or new versions supplied by the Author.
+
+1.2. "AI Features" means any functionality within the Software that generates, completes, transforms, reviews, or explains code or text, whether processed locally or by a remote service.
+
+1.3. "Third-Party Components" means software, tools, services, models, or libraries not authored by the Licensor that the Software invokes, bundles, or interoperates with.
+
+----------------------------------------------------------------
+
+2. GRANT OF LICENSE
+
+2.1. Subject to your continued compliance with this Agreement, the Author grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to install and use the Software free of charge for personal, educational, internal business, or commercial purposes.
+
+2.2. You may install the Software on any number of devices that you own or control, or that are under the control of your organization.
+
+2.3. Code, projects, and other work product that you create using the Software belong entirely to you. The Author claims no ownership interest in, and no license to, your work product.
+
+2.4. This license is granted, not sold. No rights are granted except those expressly stated in this Agreement.
+
+----------------------------------------------------------------
+
+3. RESTRICTIONS
+
+You shall not, and shall not permit any third party to:
+
+3.1. Decompile, disassemble, reverse engineer, or otherwise attempt to derive the source code, underlying structure, or algorithms of the Software, except to the extent such activity is expressly permitted by applicable law notwithstanding this limitation;
+
+3.2. Modify, adapt, translate, or create derivative works based on the Software;
+
+3.3. Sell, rent, lease, lend, sublicense, or otherwise commercially distribute the Software or any copy of it, whether standalone or as part of a bundle;
+
+3.4. Redistribute the Software other than by directing others to the Author's official distribution channels;
+
+3.5. Remove, obscure, or alter any copyright notice, trademark, license text, attribution, or other proprietary marking contained in the Software;
+
+3.6. Circumvent, disable, or interfere with any update mechanism, license check, authentication step, or remote disablement function described in Section 6;
+
+3.7. Use the Software to develop, operate, or facilitate any unlawful activity, or in any manner that violates applicable law.
+
+----------------------------------------------------------------
+
+4. INTELLECTUAL PROPERTY
+
+4.1. The Software is licensed, not sold. All right, title, and interest in and to the Software — including all copyrights, trade secrets, trademarks, and other intellectual property rights therein — are and shall remain the exclusive property of the Author.
+
+4.2. The Software is freeware, not open source. No rights under any open source license are granted by this Agreement, and nothing in the availability of the Software at no cost shall be construed as placing it in the public domain or dedicating it to open use.
+
+4.3. Any rights not expressly granted to you in this Agreement are reserved by the Author.
+
+----------------------------------------------------------------
+
+5. THIRD-PARTY COMPONENTS
+
+5.1. The Software may require, invoke, bundle, or interoperate with Third-Party Components, including but not limited to C/C++ compilers and toolchains (such as GCC/g++, Clang, or MSVC), debuggers, build systems, local inference runtimes (such as Ollama), and remote AI service providers.
+
+5.2. Third-Party Components are licensed to you under their own respective license terms, and not under this Agreement. It is your responsibility to review and comply with those terms.
+
+5.3. The Author makes no representation or warranty regarding any Third-Party Component, does not control its availability, functionality, licensing, or security, and accepts no liability arising from its use. Discontinuation of or changes to a Third-Party Component may impair or disable features of the Software without notice.
+
+----------------------------------------------------------------
+
+6. NETWORK FEATURES, UPDATES, AND REMOTE DISABLEMENT
+
+6.1. Connectivity. The Software requires an active internet connection for certain functions. Some features may be degraded or unavailable when offline.
+
+6.2. Update and integrity checks. The Software periodically transmits requests to external servers (which may include public hosting endpoints such as GitHub Gists) to check for updates, security patches, configuration changes, and service notices.
+
+6.3. Remote disablement ("kill switch"). You expressly acknowledge and agree that the Software contains a mechanism by which the Author may remotely disable, restrict, or block the operation of a version of the Software. This mechanism exists to mitigate critical security vulnerabilities, severe defects, or misuse. The Author will use reasonable efforts to provide notice and a remediation path where practicable, but may exercise this right without prior notice, and shall have no liability for any loss, interruption, or damage arising from its exercise.
+
+6.4. Availability. The Author does not guarantee that any network service supporting the Software will remain available, and may modify or discontinue any such service at any time.
+
+----------------------------------------------------------------
+
+7. AUTHENTICATION, DATA, AND PRIVACY
+
+7.1. Authentication. The Software uses OAuth 2.0 via third-party identity providers (such as GitHub and Google) for sign-in. Your account credentials are handled by those providers and are not stored locally by the Software.
+
+7.2. AI Features and transmitted data. If you use AI Features backed by a remote service, your prompts and the relevant portions of your code, files, or project context necessary to fulfil the request may be transmitted over the network to that service and processed under that service's own terms and privacy policy.
+
+7.3. Local processing. Where the Software supports a local inference backend (such as Ollama), configuring and using that backend keeps AI Feature processing on your own machine. If you are working with confidential, regulated, proprietary, or client-owned source code, you should use a local backend or disable AI Features entirely.
+
+7.4. Diagnostics. The Software may transmit limited technical and diagnostic information, such as version identifiers, platform details, and error reports, for the purpose of maintaining and improving the Software.
+
+7.5. Your responsibility. You are solely responsible for ensuring that your use of network-dependent features complies with any confidentiality obligations, employment agreements, client contracts, or data protection laws applicable to you.
+
+----------------------------------------------------------------
+
+8. AI-GENERATED OUTPUT
+
+8.1. AI Features are probabilistic and may produce output that is incorrect, insecure, inefficient, non-functional, or unsuitable for your purpose.
+
+8.2. You are solely responsible for reviewing, testing, and validating any AI-generated output before use. Do not deploy AI-generated code to production systems without independent review.
+
+8.3. The Author makes no representation that AI-generated output is original, non-infringing, or free of third-party rights, and accepts no liability arising from your use of such output.
+
+----------------------------------------------------------------
+
+9. INDEPENDENT DEVELOPER NOTICE
+
+9.1. The Software is developed and maintained by a single independent developer, who is also a student. It is not backed by a company, a quality assurance team, a security team, or a support organization.
+
+9.2. Accordingly, and without limiting Sections 10 and 11:
+
+   (a) Updates, bug fixes, and security patches are provided on a best-effort basis only, with no committed response time, service level, or release schedule;
+
+   (b) The Software has not undergone formal security auditing, certification, compliance review, or independent verification of any kind;
+
+   (c) Development may be paused, slowed, or discontinued at any time, for any reason, including reasons unrelated to the Software.
+
+9.3. Notice to organizational and commercial users. Commercial use is permitted under Section 2.1 and is welcomed. However, you are expressly warned that the Software is not suitable for use in safety-critical systems, regulated environments, or any context in which failure, defect, downtime, or data loss could result in personal injury, financial loss, regulatory penalty, or breach of contract. If your organization requires guaranteed support, remediation timelines, indemnification, audit rights, or compliance attestations, the Software is not appropriate for your use case and you should select commercially supported tooling instead. By deploying the Software in an organizational context, you accept full responsibility for that decision.
+
+9.4. Back up your work. You are responsible for maintaining independent, regular backups of all code and data. Use of version control is strongly recommended.
+
+----------------------------------------------------------------
+
+10. DISCLAIMER OF WARRANTIES
+
+10.1. THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE.
+
+10.2. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE AUTHOR DISCLAIMS ALL WARRANTIES, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, AND ANY WARRANTIES ARISING FROM COURSE OF DEALING OR USAGE OF TRADE.
+
+10.3. THE AUTHOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, COMPATIBLE WITH ANY PARTICULAR SYSTEM, OR THAT DEFECTS WILL BE CORRECTED.
+
+10.4. Some jurisdictions do not allow the exclusion of certain warranties or the limitation of statutory consumer rights. To the extent such rights apply to you and cannot lawfully be excluded, the exclusions in this Section apply only to the maximum extent permitted, and nothing in this Agreement limits liability for death or personal injury caused by negligence, for fraud, or for any other liability that cannot lawfully be limited.
+
+----------------------------------------------------------------
+
+11. LIMITATION OF LIABILITY
+
+11.1. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, BUSINESS, GOODWILL, DATA, SOURCE CODE, OR WORK PRODUCT, ARISING OUT OF OR RELATING TO THE SOFTWARE OR THIS AGREEMENT, REGARDLESS OF THE THEORY OF LIABILITY AND EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+11.2. THE AUTHOR'S TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THE SOFTWARE OR THIS AGREEMENT SHALL NOT EXCEED THE GREATER OF (A) THE TOTAL AMOUNT YOU PAID TO THE AUTHOR FOR THE SOFTWARE, WHICH FOR FREEWARE IS ZERO, OR (B) TEN UNITED STATES DOLLARS (USD 10).
+
+11.3. You acknowledge that the Software is provided free of charge, that the allocation of risk in Sections 10 and 11 is a fundamental basis on which the Author is willing to make the Software available, and that the Author would not do so on any other terms.
+
+----------------------------------------------------------------
+
+12. INDEMNIFICATION
+
+You agree to indemnify, defend, and hold harmless the Author from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising out of or relating to (a) your use of the Software, (b) your violation of this Agreement, (c) your violation of any applicable law or the rights of any third party, or (d) your deployment of the Software in any organizational, commercial, or production environment.
+
+----------------------------------------------------------------
+
+13. TERM AND TERMINATION
+
+13.1. This Agreement takes effect when you first install or use the Software and remains in effect until terminated.
+
+13.2. Termination by you. You may terminate this Agreement at any time by ceasing all use of the Software and deleting all copies in your possession or control.
+
+13.3. Termination by the Author. This license terminates automatically and immediately, without notice, if you breach any term of this Agreement. The Author may additionally terminate or suspend this license, in whole or in part, where continued use would present a security risk, where the Software is discontinued, or where required by law.
+
+13.4. Effect of termination. Upon termination, all rights granted to you under Section 2 cease immediately, and you must stop using and delete all copies of the Software. Work product you created using the Software remains yours and is unaffected by termination.
+
+13.5. Survival. Sections 3, 4, 5, 8, 10, 11, 12, 13.4, 13.5, 15, and 16 survive termination of this Agreement.
+
+----------------------------------------------------------------
+
+14. CHANGES TO THIS AGREEMENT
+
+14.1. The Author may revise this Agreement from time to time. Revised terms will accompany the applicable release of the Software and will state a new effective date.
+
+14.2. Your continued use of the Software following the release of a revised Agreement constitutes acceptance of the revised terms. If you do not accept them, your sole remedy is to cease use of the Software and delete all copies, in accordance with Section 13.2.
+
+----------------------------------------------------------------
+
+15. GOVERNING LAW AND DISPUTE RESOLUTION
+
+15.1. This Agreement shall be governed by and construed in accordance with the laws of [COUNTRY / STATE / PROVINCE — NOT YET SPECIFIED], without regard to its conflict of law provisions.
+
+15.2. The courts of [CITY / JURISDICTION — NOT YET SPECIFIED] shall have exclusive jurisdiction over any dispute arising out of or relating to this Agreement, except that either party may seek injunctive relief in any court of competent jurisdiction.
+
+15.3. If you are a consumer, nothing in this Section deprives you of the protection of the mandatory consumer laws of your country of residence, or of your right to bring proceedings in the courts of that country where such a right is guaranteed by law.
+
+----------------------------------------------------------------
+
+16. GENERAL PROVISIONS
+
+16.1. Entire agreement. This Agreement constitutes the entire agreement between you and the Author regarding the Software and supersedes all prior or contemporaneous understandings, communications, and representations on the subject.
+
+16.2. Severability. If any provision of this Agreement is held invalid, unlawful, or unenforceable, that provision shall be modified to the minimum extent necessary to make it enforceable, or severed if modification is not possible, and the remaining provisions shall continue in full force and effect.
+
+16.3. No waiver. No failure or delay by the Author in exercising any right under this Agreement shall constitute a waiver of that right. A waiver is effective only if made in writing.
+
+16.4. Assignment. You may not assign or transfer this Agreement or any rights under it without the Author's prior written consent. The Author may assign this Agreement freely.
+
+16.5. Export compliance. You represent that you are not located in, and will not use the Software in, any jurisdiction subject to a comprehensive trade embargo, and that you are not a party on any applicable restricted-party list. You agree to comply with all applicable export control and sanctions laws.
+
+16.6. Headings. Section headings are provided for convenience only and do not affect interpretation.
+
+----------------------------------------------------------------
+
+17. CONTACT
+
+Questions about this Agreement, security reports, and bug reports may be directed to:
+
+John Gabriel Ronao
+GlzzjhnLexi
+[EMAIL ADDRESS]
+[PROJECT URL / REPOSITORY]
+
+================================================================
+
+Thank you for using C++ Forge IDE and for supporting independent software development.
+
+Copyright © 2026 John Gabriel Ronao ("GlzzjhnLexi"). All rights reserved.
