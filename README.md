@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/glzzjhn-byte/IDE_Custom/v2/src/main/resources/ImagesAsset/GlzzLexiBear-Logo.png" alt="Forge IDE Logo" width="150" height="150"/>
-  <h1>Forge IDE v2.0</h1>
+  <h1>Forge IDE</h1>
   <p><strong>A modern, fast, and highly customizable IDE built for C++, Python, and Lua developers.</strong></p>
   
   <p>
@@ -12,34 +12,31 @@
 
 <hr/>
 
-## ?? Overview
+## ?? About the Project
 
-**Forge IDE** is a lightweight yet incredibly powerful integrated development environment tuned for modern polyglot development. Built by a solo developer, it features blazing-fast performance, deep OS integration, and cutting-edge **local offline AI assistance** to supercharge your workflow.
+**Forge IDE** is a lightweight yet incredibly powerful integrated development environment designed to supercharge modern polyglot development. Built by a solo developer, the project focuses on three core pillars: blazing-fast performance, zero-dependency installation, and cutting-edge **offline AI integration**. 
 
-## ? What's New in V2.0!
+Whether you are compiling C++ binaries, scripting in Python, or debugging Lua, Forge IDE provides a highly customizable and secure workspace tailored for developers who want a smart editor without the bloat of traditional enterprise IDEs.
 
-The V2.0 update brings massive architectural changes to Forge IDE, transforming it from a simple C++ editor into an intelligent, agentic workspace:
+## ? Key Features
 
-- ?? **Agentic AI Chatbot**: The built-in AI chatbot can now actively code *for* you. Click the new **Apply** button on any AI-generated code block to instantly inject or replace code directly inside your editor.
-- ?? **Dynamic AI Model Manager**: You are no longer locked to hardcoded models! The new Model Manager detects your PC's RAM, recommends the best model (like codegemma:2b), and automatically manages the download of both Chat and Autocomplete (-base) models via Ollama.
-- ?? **Visual Breakpoint Debugger**: The debugger has been entirely overhauled. You can now set breakpoints simply by clicking the line numbers in the editor margin (spawning a visual red dot ?). 
-- ?? **Python & Lua Support**: We've expanded beyond C++! Forge IDE now officially supports Python script execution and debugging (via debugpy), as well as Lua syntax and compilation.
-- ??? **Standalone System Diagnostics**: IDE background logs and AI engine status are now cleanly separated into a dedicated *System Diagnostics Logger* window, keeping your application's run terminal completely clean.
-
-## ??? Core Features
-
-- **Native Windows Experience**: Packaged with a private Java runtime environment. Requires zero external dependencies. Install it and start coding immediately.
-- **Intelligent Syntax Highlighting**: Real-time syntax tracking with full support for C/C++, Python, and Lua.
-- **Plugin Architecture**: Deep IPC (Inter-Process Communication) plugin system. Extend the IDE safely with external tools without risking core stability.
-- **Built-in Compiler Management**: Seamless integration with MinGW/g++ and Python interpreters. Compile and run your code with a single click.
+- ?? **Agentic AI Workspace**: Features a built-in AI chatbot capable of actively modifying your workspace. The AI can write, inject, and replace code directly into your editor using local, offline language models (powered by Ollama).
+- ?? **Visual Debugging**: Fully integrated Debug Adapter Protocol (DAP) backends allow for seamless, multi-file visual debugging. Set breakpoints simply by clicking the editor margins and step through your logic in real-time.
+- ?? **Polyglot Support**: First-class syntax highlighting, compilation, and execution support for **C/C++**, **Python**, and **Lua**.
+- ? **Zero-Setup Native Experience**: Packaged with a bundled Java runtime environment. It requires absolutely zero external dependencies—just install it and start coding.
+- ?? **Secure Plugin Ecosystem**: Features a deep IPC (Inter-Process Communication) plugin system. Extend the IDE safely with external tools without ever risking core stability.
 
 ## ?? Installation
 
-1. Go to the [Releases page](https://github.com/glzzjhn-byte/ForgeIDE-Main/releases/latest).
-2. Download the latest CppForgeIDE_Installer_v2.exe.
-3. (Optional) Verify the .sig GPG signature using Kleopatra or Gpg4win to ensure file integrity.
-4. Run the installer. 
+Forge IDE is distributed as a standalone Windows executable. 
+
+1. Navigate to our [**Releases Page**](https://github.com/glzzjhn-byte/ForgeIDE-Main/releases).
+2. Look for the **Latest Release** tag and download the highest version .exe installer (e.g., CppForgeIDE_Installer_vX.X.exe).
+3. Run the installer. 
 > *Note: Since this is an indie application, Windows SmartScreen may show an "Unknown Publisher" warning. Click **More Info** -> **Run Anyway**.*
+
+### ?? Check for Updates!
+We are constantly pushing boundaries and releasing new features. **Always check the Releases page** to ensure you are downloading the latest version or critical hotfixes! 
 
 ## ?? Security & Verification
 
